@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./assets/wallpaper.jpg");
+    
+    color: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px ;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    background-color: #34495e;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerD {
+    background-color: #34495e;
+    padding: 15px;
+   margin: -297px 20px 0px 0px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.deposito{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.balanco{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.linhas{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.aposta{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.resultado{
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e74c3c;
+    border-radius: 10px;
+}
+
+.controle{
+
+margin: 0px 0px 10px 0px;
+padding: auto;
+}
+
+input {
+    width: 50px;
+    text-align: center;
+    margin: auto;
+    
+   
+}
+
+.coluna { 
+    font-size: 40px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+#mensagem{
+    height: 40px;
+    width: 200px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: #e74c3c;
+    border-radius: 8px;
+}
